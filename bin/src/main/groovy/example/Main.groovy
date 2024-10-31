@@ -14,7 +14,7 @@ public class Main implements CommandLineRunner
     // Method 1
     // run() method for springBootApplication to execute
     @Override
-    public void run(String args[]) throws Exception 
+    public void run(String[] args) throws Exception 
     {
 
         // Print statement when method is called

@@ -1,7 +1,9 @@
-FROM vanto/apache-buildr:latest-jruby-jdk8
+FROM maven:3-openjdk-17
 
-WORKDIR /workspace
+WORKDIR /usr/src/mymaven
 
-COPY  bin/ .
+COPY bin .
 
-CMD ["run"]
+ENTRYPOINT ["mvn"]
+
+CMD ["clean", "install", "compile", "spring-boot:run"]
