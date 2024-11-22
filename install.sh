@@ -85,7 +85,7 @@ function start-up(){
 
   echo "$info_base build image" >> $logfile
 
-  sudo docker run --rm $docker_img_name
+  sudo docker run --rm -p 80:8080 $docker_img_name
 
   echo "$info_base running image" >> $logfile
 

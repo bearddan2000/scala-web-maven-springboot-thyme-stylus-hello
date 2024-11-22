@@ -1,10 +1,11 @@
-# groovy-cli-masven-springboot-hello-world
+# scala-web-maven-springboot-thyme-hello-world
 
 ## Description
 A POC for spring framework.
 
 ## Tech stack
 - spring boot
+- thymeleaf
 
 ## Docker stack
 - maven:3-openjdk-17
